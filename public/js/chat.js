@@ -97,6 +97,6 @@ locationButton.on('click',function(){
         })
     }, function(){
         locationButton.removeAttr('disabled').text('Send location');        
-        alert('Unable to print the location');
+        alert('Unable to get the location');
     });
 })
